@@ -12,7 +12,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
       assetsDir: "static", // Equivalent to assetsSubDirectory in webpack
       // ...
     },
-    base: command === "build" ? 'static' : "./",
+    base: "./",
     plugins: [
       vue(),
       AutoImport({
