@@ -8,7 +8,7 @@ import path from "path";
 export default defineConfig({
   build: {
     outDir: path.resolve(__dirname, "docs"), // Equivalent to assetsRoot in webpack
-    assetsDir: "static", // Equivalent to assetsSubDirectory in webpack
+    assetsDir: "./", // Equivalent to assetsSubDirectory in webpack
     // ...
   },
 
