@@ -4,8 +4,8 @@ import { ref } from "vue";
 import "animate.css";
 const activeIndex = ref("1");
 const { locale } = useI18n({ useScope: "global" });
-const changeLang = (): void => {
-  locale.value = locale.value === "cn" ? "en" : "cn";
+const changeLang = (loc:string): void => {
+  locale.value = loc;
 };
 </script>
 
@@ -79,8 +79,8 @@ const changeLang = (): void => {
     </el-sub-menu>
     <el-sub-menu index="6" class="menu-item">
       <template #title>{{ $t("locale") }}</template>
-      <el-menu-item @click="changeLang">中文Chinese</el-menu-item>
-      <el-menu-item @click="changeLang">英文English</el-menu-item>
+      <el-menu-item @click="changeLang('cn')">中文Chinese</el-menu-item>
+      <el-menu-item @click="changeLang('en')">英文English</el-menu-item>
     </el-sub-menu>
   </el-menu>
   <router-view />
