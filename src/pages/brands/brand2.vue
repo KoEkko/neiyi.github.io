@@ -35,20 +35,20 @@
 
     <div class="intro">
       <div class="up_title">
-        <div class="up_tit">美思品牌故事</div>
-        <div class="down_tit">品牌故事</div>
+        <div class="up_tit">{{$t("brand2-1")}}</div>
+        <div class="down_tit">{{$t("brand2-2")}}</div>
       </div>
       <div class="up animate__animated animate__fadeInLeft" >
         <br />
         <span style="line-height: 35px"
-          >美思:见字闻香，源自女人“天生爱美，慧有所思”的韵味与意境，音节美妙动、字律温雅清脆，女性的美丽、优雅、聪慧蕴涵其中。</span
+          >{{$t("brand2-3")}}</span
         >
         <br />
         <span style="line-height: 35px"
-          >美思标志“M”造型犹如女性娇健、丰满的胸型，又似一只翩翩起舞的彩蝶在自日飞翔，流畅灵动的线条隐藏“心”形，象征爱心，巧妙地把品牌文化与核心价值隐寓于其中。热情奔</span
+          >{{$t("brand2-4")}}</span
         >
         <br />
-        <span style="line-height: 35px">放的美思“红”，更充分展现了成熟女性对时尚生活的追求和由内而发的优雅魅</span><br />
+        <span style="line-height: 35px">{{$t("brand2-5")}}</span><br />
       </div>
     </div>
   </div>
@@ -88,13 +88,18 @@ const modules = [Navigation, Scrollbar, A11y, Autoplay];
 
 
 .intro {
+  width: 1600px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 100px;
 }
-
+.up {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
 .up_title,
 .down_title {
   font-size: 28px;

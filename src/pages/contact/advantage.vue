@@ -7,20 +7,14 @@
             <img src="../../assets/advance1.jpg" alt="" />
           </div>
           <div class="text">
-            <span>CLASSIC</span>
+            <span>{{$t("advan-10")}}</span>
             <span style="color: rgb(254, 118, 0); font-size: 20px">-</span>
-            <span style="color: rgb(128, 128, 128); font-size: 16px"
-              >经典推荐</span
-            >
           </div>
         </div>
         <div class="two">
           <div class="text" style="margin-bottom: 80px">
-            <span>SPORTSWEAR</span>
+            <span>{{ $t("advan-12")}}</span>
             <span style="color: rgb(254, 118, 0); font-size: 20px">-</span>
-            <span style="color: rgb(128, 128, 128); font-size: 16px"
-              >运动服饰</span
-            >
           </div>
           <div class="img">
             <img src="../../assets/advance3.jpg" alt="" />
@@ -31,56 +25,49 @@
             <img src="../../assets/advance2.jpg" alt="" />
           </div>
           <div class="text">
-            <span>CLASSIC</span>
+            <span>{{$t("advan-10")}}</span>
             <span style="color: rgb(254, 118, 0); font-size: 20px">-</span>
-            <span style="color: rgb(128, 128, 128); font-size: 16px"
-              >经典推荐</span
-            >
           </div>
         </div>
       </div>
     </div>
     <div class="intro">
       <div class="up_title">
-        <div class="up_tit">品牌优势</div>
-        <div class="down_tit">BRAND ADVANTAGE</div>
+        <div class="up_tit">{{ $t("advan-13") }}</div>
       </div>
       <div class="up">
         <br />
         <span style="line-height: 48px"
-          >1、诗婷品牌拥有:中国驰名商标，CQC中国环保产品与国家CNMAS实验室双认证、中国内衣十大品牌、广东省名牌产品、广东省著名商标、广东省先进制造业标准化示范
-          单位等强大品牌背景。</span
+          >{{ $t("advan-1")}}</span
         >
         <br />
         <span
-          >2、加盟立享六大支持 品牌支持 广告支持 政策支持运营支持 培训支持
-          区域保护</span
+          >{{ $t("advan-2")}}</span
         >
         <br />
-        <span>3、成熟先进的自主研发生产系统保障产品质与量行业最优。</span><br />
-        <span>4、强大的市场推广，让您加盟无忧!</span> <br />
+        <span>{{ $t("advan-3")}}</span><br />
+        <span>{{ $t("advan-4")}}</span> <br />
         <span
-          >5、一举三得:加盟开一家实体店，即可免费拥有线上直播小店、线上微店，三店齐开、三羊开泰!</span
+          >{{ $t("advan-5")}}</span
         >
         <br />
       </div>
       <div class="down_title">
-        <div class="up_tit">市场布局</div>
-        <div class="down_tit">MARKET LAYOUT</div>
+        <div class="up_tit">{{$t("advan-14")}}</div>
       </div>
       <div class="down">
         <span
-          >重点市场方向:国内一线城市、重点省会城市、经济发达的三四线城市</span
+          >{{ $t("advan-6")}}</span
         >
         <br />
-        <span>业态类型布局: 新兴百货、购物广场、临街商铺、社区商圈店。</span>
+        <span>{{ $t("advan-7")}}</span>
         <br />
         <span
-          >部分进驻商场资源:万达广场、凯德广场、吉利购物广场、佛山潮流前线、丽影广场、广州黄博领好购物广场</span
+          >{{ $t("advan-8")}}</span
         >
         <br />
         <span
-          >广州黄埔时代城、步步高商场系统、吉芝岛系统、太原新精品城、太原八方商贸域、内蒙阿拉善左旗驼旺广场、大润发超市系统、万家超市系统、长沙湘府购物广场。</span
+          >{{ $t("advan-9")}}</span
         >
         <br />
       </div>
@@ -152,6 +139,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .down_tit {

@@ -2,22 +2,20 @@
   <div class="contact">
     <div class="rows">
       <div class="bar">
-        <div class="up">CONTACT</div>
-        <div class="down">联系我们</div>
+        <div class="up">{{$t("con-1")}}</div>
       </div>
       <div class="content">
         <div class="left">
           <div class="box">
-            <div class="tit">MEISEE 广东美思内衣有限公司</div>
+            <div class="tit">{{$t("con-2")}}</div>
             <div class="p">
-              迎接双赢未来，共创成功道路！有意者请填写您宝贵的意见，我们客服将尽快回复您！
+              {{$t("con-3")}}
             </div>
             <div class="p_down">
-              <p> 加盟咨询热线：0757-66826189 </p> <br />
-              <p> VIP尊享线下加盟热线孙小姐：13809229562 </p> <br />
-              <p> VIP尊享线上加盟热线罗先生：13925415116 </p> <br />
+              <p>{{$t("con-4")}}</p>
+              <br />
               <p>
-                总部地址：广东省佛山市南海区大沥镇盐步蟾龙路1号美思广场B栋20楼
+                {{$t("con-5")}}
               </p>
               <br />
             </div>
@@ -35,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import MapContainer from "./MapContainer.vue"
+import MapContainer from "./MapContainer.vue";
 </script>
 
 <style scoped>

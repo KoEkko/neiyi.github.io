@@ -1,5 +1,5 @@
 import { createI18n } from "vue-i18n";
-import CN from "./zh";
+import CN from "./cn";
 import EN from "./en"
 
 const message = {

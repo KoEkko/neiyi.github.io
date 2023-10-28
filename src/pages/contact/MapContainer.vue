@@ -3,14 +3,15 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from "vue-i18n";
 import { onMounted, onUnmounted } from "vue";
 import AMapLoader from "@amap/amap-jsapi-loader";
-
+const { t } = useI18n();
 let map: any = null;
 const markerContent =
   "" +
   '<div class="custom-content-marker">' +
-  '   <div class="close-btn" onclick="clearMarker()">奕瀚国际贸易有限公司 <br>地址：深圳市龙华区民治街道民乐花园31栋A202</div>' +
+  `   <div class="close-btn" onclick="clearMarker()">${t("con-2")} <br>${t("add-1")}</div>` +
   "</div>";
 
 onMounted(() => {

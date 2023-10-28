@@ -20,35 +20,34 @@
           <p
             style="font-size: 28px; color: rgb(68, 68, 68); text-align: center"
           >
-          加盟流程<br> 
+          {{ $t("join-1")}}<br> 
           </p>
           <br />
           <p class="p_s" style="font-size: 12px; color: rgb(64, 64, 64); font-weight: 300;" >
-          <p>1、客户以电话、传真、E-mai1、微信或拜访方式传达加盟意向
-客户填写《加盟申请表》</p> <br />
-            <p>2、公司 (代理商)考察客户经营理念、店铺进行综合评估</p> <br />
+          <p>{{ $t("join-2")}}</p> <br />
+            <p>{{ $t("join-3")}}</p> <br />
             <p>
-              3、客户签订特许加盟协议并交纳定金
+              {{ $t("join-4")}}
             </p> <br>
             <p>
-              4、公司 (代理商)提供店铺设计装修图纸，客户按图纸装修店铺
+              {{ $t("join-5")}}
               <br>
             </p>
             <br />
             <p>
-              5、客户支付首批货款，公司 (代理商) 结合客户要求配货
+              {{ $t("join-6")}}
             </p>
             <br />
             <p>
-              6、公司 (代理商)协助筹备策划开业并对店员进行培训
+              {{ $t("join-7")}}
             </p>
             <br />
             <p>   
-              7、加盟店开业
+              {{ $t("join-8")}}
             </p>
             <br />
             <p>   
-              8、公司 (代理商)派专人负责跟踪服务
+              {{ $t("join-9")}}
             </p>
             <br />
           </p>
@@ -57,16 +56,15 @@
     </div>
     <div class="mid_content">
       <div class="mid_title">
-        <div class="mid_up">加盟条件</div>
-        <div class="mid_down">JOIN CONDITION</div>
+        <div class="mid_up">{{ $t("join-10")}}</div>
       </div>
     </div>
     <div class="mid_summary">
-        1、 认同公司品牌，接受特许加盟操作理念。
-2、 具有相关内衣行业经验，并具备良好的商业信誉。<br>
-3、具有较强的品牌意识，同时具备加盟专卖店经营管理能力。<br>
-4、繁华路段拥有30平方米以上店铺或20平方米以上商场专柜 <br>
-5、拥有运作资金20-50万元。
+      {{ $t("join-11")}}
+      {{ $t("join-12")}}<br>
+      {{ $t("join-13")}}<br>
+      {{ $t("join-14")}} <br>
+      {{ $t("join-15")}}
       </div>
     <div class="photos">
       <swiper

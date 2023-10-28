@@ -1,7 +1,12 @@
 <script setup lang="ts">
+import { useI18n } from "vue-i18n";
 import { ref } from "vue";
 import "animate.css";
 const activeIndex = ref("1");
+const { locale } = useI18n({ useScope: "global" });
+const changeLang = (): void => {
+  locale.value = locale.value === "cn" ? "en" : "cn";
+};
 </script>
 
 <template>
@@ -20,80 +25,108 @@ const activeIndex = ref("1");
       />
     </el-menu-item>
     <el-menu-item index="1" class="menu-item"
-      ><router-link to="/">首页</router-link></el-menu-item
+      ><router-link to="/">{{ $t("home") }}</router-link></el-menu-item
     >
     <el-sub-menu index="2" class="menu-item">
-      <template #title>企业介绍</template>
+      <template #title>{{ $t("intro") }}</template>
       <el-menu-item index="2-1"
-        ><router-link to="/profile">企业简介</router-link></el-menu-item
+        ><router-link to="/profile">{{
+          $t("profile")
+        }}</router-link></el-menu-item
       >
-      <el-menu-item index="2-2"
-        ><router-link to="/history">发展历程</router-link></el-menu-item
+      <!-- <el-menu-item index="2-2"
+        ><router-link to="/history">{{
+          $t("history")
+        }}</router-link></el-menu-item
       >
       <el-menu-item index="2-3"
-        ><router-link to="honor">企业荣誉</router-link></el-menu-item
-      >
+        ><router-link to="honor">{{ $t("honor") }}</router-link></el-menu-item
+      > -->
     </el-sub-menu>
     <el-sub-menu index="3" class="menu-item">
-      <template #title>旗下品牌</template>
+      <template #title>{{ $t("brands") }}</template>
       <el-menu-item index="3-1"
-        ><router-link to="/brand1">美思品牌</router-link></el-menu-item
+        ><router-link to="/brand1">{{
+          $t("brand1")
+        }}</router-link></el-menu-item
       >
       <el-menu-item index="3-2"
-        ><router-link to="/brand2">诗婷品牌</router-link></el-menu-item
+        ><router-link to="/brand2">{{
+          $t("brand2")
+        }}</router-link></el-menu-item
       >
     </el-sub-menu>
     <el-menu-item index="4" class="menu-item">
       <template #title
-        ><router-link to="dynamic">企业动态</router-link></template
+        ><router-link to="dynamic">{{ $t("dynamic") }}</router-link></template
       >
     </el-menu-item>
     <el-sub-menu index="5" class="menu-item">
-      <template #title>招商加盟</template>
+      <template #title>{{ $t("joinus") }}</template>
       <el-menu-item index="5-1"
-        ><router-link to="advantage">品牌优势与布局</router-link></el-menu-item
+        ><router-link to="advantage">{{
+          $t("advantage")
+        }}</router-link></el-menu-item
       >
       <el-menu-item index="5-2"
-        ><router-link to="/join">关于加盟</router-link></el-menu-item
+        ><router-link to="/join">{{ $t("join") }}</router-link></el-menu-item
       >
       <el-menu-item index="5-3"
-        ><router-link to="/contact">联系我们</router-link></el-menu-item
+        ><router-link to="/contact">{{
+          $t("contact")
+        }}</router-link></el-menu-item
       >
     </el-sub-menu>
     <el-sub-menu index="6" class="menu-item">
-      <template #title>切换语言</template>
-      <template
-        v-for="locale in $i18n.availableLocales"
-        :key="`locale-${locale}`"
-      >
-        <el-menu-item index="6-1">{{ locale }}</el-menu-item>
-      </template>
+      <template #title>{{ $t("locale") }}</template>
+      <el-menu-item @click="changeLang">中文Chinese</el-menu-item>
+      <el-menu-item @click="changeLang">英文English</el-menu-item>
     </el-sub-menu>
   </el-menu>
   <router-view />
   <footer>
     <div class="main">
       <el-row class="row-gap">
-        <el-col :span="8"><div>产品</div></el-col>
-        <el-col :span="8"><div>商城</div></el-col>
-        <el-col :span="8"><div>隐私权政策</div></el-col>
+        <el-col :span="8"
+          ><div>{{ $t("footer1-1") }}</div></el-col
+        >
+        <el-col :span="8"
+          ><div>{{ $t("footer1-2") }}</div></el-col
+        >
+        <el-col :span="8"
+          ><div>{{ $t("footer1-3") }}</div></el-col
+        >
       </el-row>
       <el-row class="row-gap">
-        <el-col :span="8"><div>內衣</div></el-col>
-        <el-col :span="8"><div>BodiBra 淘寶旗艦店</div></el-col>
-        <el-col :span="8"><div>使用規則及管理條款</div></el-col>
+        <el-col :span="8"
+          ><div>{{ $t("footer1-10") }}</div></el-col
+        >
+        <el-col :span="8"
+          ><div>{{ $t("footer1-4") }}</div></el-col
+        >
+        <el-col :span="8"
+          ><div>{{ $t("footer1-7") }}</div></el-col
+        >
       </el-row>
       <el-row class="row-gap">
-        <el-col :span="8"><div>產婦托腹帶</div></el-col>
+        <el-col :span="8"
+          ><div>{{ $t("footer1-5") }}</div></el-col
+        >
       </el-row>
       <el-row class="row-gap">
-        <el-col :span="8"><div>腰封</div></el-col>
+        <el-col :span="8"
+          ><div>{{ $t("footer1-6") }}</div></el-col
+        >
       </el-row>
       <el-row class="row-gap">
-        <el-col :span="8"><div>BodiCare</div></el-col>
+        <el-col :span="8"
+          ><div>{{ $t("footer1-8") }}</div></el-col
+        >
       </el-row>
       <el-row class="row-gap">
-        <el-col :span="8"><div>塑型束褲</div></el-col>
+        <el-col :span="8"
+          ><div>{{ $t("footer1-9") }}</div></el-col
+        >
       </el-row>
     </div>
     <div class="copyright">@2021, BodiBra 版權所有</div>

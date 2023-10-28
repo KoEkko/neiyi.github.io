@@ -46,41 +46,41 @@
           </p>
           <br />
           <div class="p_s">
-            <strong>深圳市奕瀚国际贸易有限公司</strong> <br /><br />
-            <strong>关于我们</strong> <br />
-            深圳市奕瀚国际贸易有限公司，是内衣出口批发贸易的专业合作伙伴。拥有20的内衣行业经验，我们以卓越的专业知识和广泛的产品范围，为全球客户提供内衣的优质选择。<br /><br />
+            <strong>{{ $t("profile1-1")}}</strong> <br /><br />
+            <strong>{{ $t("profile1-2")}}</strong> <br />
+            {{ $t("profile1-3")}}<br /><br />
 
-            <strong>核心优势</strong> <br />
+            <strong>{{ $t("profile1-4")}}</strong> <br />
             <li>
-              <strong>丰富经验</strong
-              >：我们积累了两个十年的内衣行业经验，深谙市场需求，为客户提供专业的建议和解决方案。
+              <strong>{{ $t("profile1-5")}}</strong
+              >{{ $t("profile1-6")}}
             </li>
             <li>
-              <strong>宽敞展厅</strong
-              >：我们自豪地拥有近千平方米的展厅，汇集了内衣领域的最新潮流和多元选择。这里是客户发现内衣创新和品质的理想之地。
+              <strong>{{ $t("profile1-7")}}</strong
+              >{{ $t("profile1-8")}}
             </li>
             <li>
-              <strong>自有加工厂</strong
-              >：我们拥有现代化的加工厂，确保产品制造过程受到严格控制，以满足客户对品质的高标准要求。
+              <strong>{{ $t("profile1-9")}}</strong
+              >{{ $t("profile1-10")}}
             </li>
             <li>
-              <strong>知名品牌</strong
-              >：作为行业领袖，我们骄傲地拥有三个备受认可的知名品牌。这些品牌代表着内衣领域的品质、时尚和创新。
+              <strong>{{ $t("profile1-11")}}</strong
+              >{{ $t("profile1-12")}}
             </li>
             <li>
-              <strong>出口贸易经验</strong
-              >：我们在出口贸易方面拥有丰富的经验，熟悉全球市场的规定和要求，确保您的产品顺利抵达目的地。
+              <strong>{{ $t("profile1-22")}}</strong
+              >{{ $t("profile1-13")}}
             </li>
             <br />
-            <strong>我们的使命</strong><br />
-            是为客户提供最佳的内衣选择，确保他们在穿着上享受到舒适和时。不论您是批发商、零售商还是品牌拥有者，我们都将提供专业支持和多样化的产品选择，以满足您的业务成功。<br />
+            <strong>{{ $t("profile1-14")}}</strong><br />
+            {{ $t("profile1-15")}}<br />
             <br />
-            <strong>联系我们</strong> <br />
-            <li><strong>地址：</strong>深圳市龙华区民治街道民乐花园31栋A202</li>
-            <li><strong>电话：</strong>18823927828</li>
-            <li><strong>电子邮件：</strong></li>
+            <strong>{{ $t("profile1-16")}}</strong> <br />
+            <li><strong>{{ $t("profile1-17")}}</strong>{{ $t("profile1-18")}}</li>
+            <li><strong>{{ $t("profile1-19")}}</strong>{{ $t("profile1-23")}}</li>
+            <li><strong>{{ $t("profile1-20")}}</strong></li>
             <br />
-            无论您是新客户还是老朋友，我们期待与您建立长期的合作伙伴关系，一同创造内衣市场的成功未来。
+            {{ $t("profile1-21")}}
           </div>
         </div>
       </div>
@@ -95,19 +95,19 @@
       <div class="web_content animate__animated animate__fadeInLeft">
         <div class="web_row">
           <div class="row_tit">
-            我们一定要成为一个伟大的公司，我们要朝着这个目标努力奋斗！
+            {{ $t("profile2-1")}}
           </div>
           <div class="web_col">
             <div class="web_p">
-              <div class="web_tit">经营理念</div>
-              <div class="web_t">共创、共享、共赢</div>
-              <div class="web_tit">核心价值</div>
-              <div class="web_t">以消费者为中心，以奋斗者为根本</div>
-              <div class="web_tit">企业宗旨</div>
-              <div class="web_t">对美好生活的向往，是我们奋斗的目标</div>
-              <div class="web_tit">企业司训</div>
+              <div class="web_tit">{{ $t("profile2-2")}}</div>
+              <div class="web_t">{{ $t("profile2-3")}}</div>
+              <div class="web_tit">{{ $t("profile2-4")}}</div>
+              <div class="web_t">{{ $t("profile2-5")}}</div>
+              <div class="web_tit">{{ $t("profile2-6")}}</div>
+              <div class="web_t">{{ $t("profile2-7")}}</div>
+              <div class="web_tit">{{ $t("profile2-8")}}</div>
               <div class="web_t">
-                爱岗敬业、勇于担当 廉洁奉公、务实高效 精益求精、创新发展
+                {{ $t("profile2-9")}}
               </div>
             </div>
             <div class="web_video"></div>
