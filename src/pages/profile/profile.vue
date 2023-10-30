@@ -122,10 +122,10 @@
             <div class="web_video">
               <video
                 src="../../assets/1.mp4"
-                playsinline=""
-                muted=""
-                autoplay=""
-                loop=""
+                playsinline
+                muted
+                autoplay
+                loop
                 preload="auto"
                 controls
                 class="video_box"
