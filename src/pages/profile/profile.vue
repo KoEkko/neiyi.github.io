@@ -46,41 +46,50 @@
           </p>
           <br />
           <div class="p_s">
-            <strong>{{ $t("profile1-1")}}</strong> <br /><br />
-            <strong>{{ $t("profile1-2")}}</strong> <br />
-            {{ $t("profile1-3")}}<br /><br />
+            <strong>{{ $t("profile1-1") }}</strong> <br /><br />
+            <strong>{{ $t("profile1-2") }}</strong> <br />
+            {{ $t("profile1-3") }}<br /><br />
 
-            <strong>{{ $t("profile1-4")}}</strong> <br />
+            <strong>{{ $t("profile1-4") }}</strong> <br />
             <li>
-              <strong>{{ $t("profile1-5")}}</strong
-              >{{ $t("profile1-6")}}
+              <strong>{{ $t("profile1-5") }}</strong
+              >{{ $t("profile1-6") }}
             </li>
             <li>
-              <strong>{{ $t("profile1-7")}}</strong
-              >{{ $t("profile1-8")}}
+              <strong>{{ $t("profile1-7") }}</strong
+              >{{ $t("profile1-8") }}
             </li>
             <li>
-              <strong>{{ $t("profile1-9")}}</strong
-              >{{ $t("profile1-10")}}
+              <strong>{{ $t("profile1-9") }}</strong
+              >{{ $t("profile1-10") }}
             </li>
             <li>
-              <strong>{{ $t("profile1-11")}}</strong
-              >{{ $t("profile1-12")}}
+              <strong>{{ $t("profile1-11") }}</strong
+              >{{ $t("profile1-12") }}
             </li>
             <li>
-              <strong>{{ $t("profile1-22")}}</strong
-              >{{ $t("profile1-13")}}
+              <strong>{{ $t("profile1-22") }}</strong
+              >{{ $t("profile1-13") }}
             </li>
             <br />
-            <strong>{{ $t("profile1-14")}}</strong><br />
-            {{ $t("profile1-15")}}<br />
+            <strong>{{ $t("profile1-14") }}</strong
+            ><br />
+            {{ $t("profile1-15") }}<br />
             <br />
-            <strong>{{ $t("profile1-16")}}</strong> <br />
-            <li><strong>{{ $t("profile1-17")}}</strong>{{ $t("profile1-18")}}</li>
-            <li><strong>{{ $t("profile1-19")}}</strong>{{ $t("profile1-23")}}</li>
-            <li><strong>{{ $t("profile1-20")}}</strong></li>
+            <strong>{{ $t("profile1-16") }}</strong> <br />
+            <li>
+              <strong>{{ $t("profile1-17") }}</strong
+              >{{ $t("profile1-18") }}
+            </li>
+            <li>
+              <strong>{{ $t("profile1-19") }}</strong
+              >{{ $t("profile1-23") }}
+            </li>
+            <li>
+              <strong>{{ $t("profile1-20") }}</strong>
+            </li>
             <br />
-            {{ $t("profile1-21")}}
+            {{ $t("profile1-21") }}
           </div>
         </div>
       </div>
@@ -95,22 +104,33 @@
       <div class="web_content animate__animated animate__fadeInLeft">
         <div class="web_row">
           <div class="row_tit">
-            {{ $t("profile2-1")}}
+            {{ $t("profile2-1") }}
           </div>
           <div class="web_col">
             <div class="web_p">
-              <div class="web_tit">{{ $t("profile2-2")}}</div>
-              <div class="web_t">{{ $t("profile2-3")}}</div>
-              <div class="web_tit">{{ $t("profile2-4")}}</div>
-              <div class="web_t">{{ $t("profile2-5")}}</div>
-              <div class="web_tit">{{ $t("profile2-6")}}</div>
-              <div class="web_t">{{ $t("profile2-7")}}</div>
-              <div class="web_tit">{{ $t("profile2-8")}}</div>
+              <div class="web_tit">{{ $t("profile2-2") }}</div>
+              <div class="web_t">{{ $t("profile2-3") }}</div>
+              <div class="web_tit">{{ $t("profile2-4") }}</div>
+              <div class="web_t">{{ $t("profile2-5") }}</div>
+              <div class="web_tit">{{ $t("profile2-6") }}</div>
+              <div class="web_t">{{ $t("profile2-7") }}</div>
+              <div class="web_tit">{{ $t("profile2-8") }}</div>
               <div class="web_t">
-                {{ $t("profile2-9")}}
+                {{ $t("profile2-9") }}
               </div>
             </div>
-            <div class="web_video"></div>
+            <div class="web_video">
+              <video
+                src="../../assets/1.mp4"
+                playsinline=""
+                muted=""
+                autoplay=""
+                loop=""
+                preload="auto"
+                controls
+                class="video_box"
+              ></video>
+            </div>
           </div>
         </div>
       </div>
@@ -240,6 +260,15 @@
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+}
+.web_col video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.web_video {
+  width: 660px;
+  height: 300px;
 }
 .web_tit {
   font-size: 18px;

@@ -4,7 +4,7 @@ import { ref } from "vue";
 import "animate.css";
 const activeIndex = ref("1");
 const { locale } = useI18n({ useScope: "global" });
-const changeLang = (loc:string): void => {
+const changeLang = (loc: string): void => {
   locale.value = loc;
 };
 </script>
@@ -16,13 +16,11 @@ const changeLang = (loc:string): void => {
     mode="horizontal"
     :ellipsis="false"
   >
-    <el-menu-item index="0">
-      <img
-        class="logo_img"
-        style="width: 100px"
-        src="./assets/logo_jia.png"
-        alt="logo"
-      />
+    <el-menu-item index="0" class="el_menu_item1">
+      <div class="img_box">
+        <img class="logo_img" src="./assets/logo.png" alt="logo" />
+      </div>
+      <p>Yihan International Co., Ltd</p>
     </el-menu-item>
     <el-menu-item index="1" class="menu-item"
       ><router-link to="/">{{ $t("home") }}</router-link></el-menu-item
@@ -34,24 +32,24 @@ const changeLang = (loc:string): void => {
           $t("profile")
         }}</router-link></el-menu-item
       >
-      <!-- <el-menu-item index="2-2"
+      <el-menu-item index="2-2"
         ><router-link to="/history">{{
           $t("history")
         }}</router-link></el-menu-item
       >
       <el-menu-item index="2-3"
         ><router-link to="honor">{{ $t("honor") }}</router-link></el-menu-item
-      > -->
+      >
     </el-sub-menu>
     <el-sub-menu index="3" class="menu-item">
       <template #title>{{ $t("brands") }}</template>
       <el-menu-item index="3-1"
-        ><router-link to="/brand1">{{
+        ><router-link to="/brand2">{{
           $t("brand1")
         }}</router-link></el-menu-item
       >
       <el-menu-item index="3-2"
-        ><router-link to="/brand2">{{
+        ><router-link to="/brand1">{{
           $t("brand2")
         }}</router-link></el-menu-item
       >
@@ -134,13 +132,24 @@ const changeLang = (loc:string): void => {
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 .el-menu-demo {
   display: flex;
   justify-content: center;
   height: 100px;
 }
-.logo_img {
-  margin-right: 100px;
+.el_menu_item1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+.img_box {
+  width: 80px;
+  height: 80px;
+  margin-right: 18px;
+}
+.img_box img{
+  width: 100%;
+  height: 100%;
 }
 .menu-item {
   padding-left: 30px;
