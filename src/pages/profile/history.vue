@@ -41,26 +41,14 @@
               {{ $t("h_7") }}
             </p>
             <br />
-            <p>   
-              {{ $t("h_8") }}
-
-            </p>
-            <br />
             <p>     
               {{ $t("h_9") }}
-
             </p>
             <br />
             <p>     
               {{ $t("h_10") }}
-
             </p>
             <br />
-            <p>
-              {{ $t("h_11") }}
-            
-            </p>
-            <br>
           </p>
         </div>
       </div>
@@ -251,9 +239,9 @@
   flex: 1;
 }
 .box_img {
-  height: 150px;
-  width: 300px;
-  margin-top: 50px;
+  height: 300px;
+  width: 230px;
+  margin-top: 100px;
   padding-bottom: 20px;
 }
 .box_img img{

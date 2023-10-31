@@ -54,11 +54,6 @@ const changeLang = (loc: string): void => {
         }}</router-link></el-menu-item
       >
     </el-sub-menu>
-    <el-menu-item index="4" class="menu-item">
-      <template #title
-        ><router-link to="dynamic">{{ $t("dynamic") }}</router-link></template
-      >
-    </el-menu-item>
     <el-sub-menu index="5" class="menu-item">
       <template #title>{{ $t("joinus") }}</template>
       <el-menu-item index="5-1"
@@ -100,7 +95,7 @@ const changeLang = (loc: string): void => {
           ><div>{{ $t("footer1-10") }}</div></el-col
         >
         <el-col :span="8"
-          ><div>{{ $t("footer1-4") }}</div></el-col
+          ><div></div></el-col
         >
         <el-col :span="8"
           ><div>{{ $t("footer1-7") }}</div></el-col
@@ -127,7 +122,7 @@ const changeLang = (loc: string): void => {
         >
       </el-row>
     </div>
-    <div class="copyright">@2021, BodiBra 版權所有</div>
+    <div class="copyright">@2021, YiHan 版權所有</div>
   </footer>
 </template>
 
