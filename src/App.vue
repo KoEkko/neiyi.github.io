@@ -48,11 +48,6 @@ const changeLang = (loc: string): void => {
           $t("brand1")
         }}</router-link></el-menu-item
       >
-      <el-menu-item index="3-2"
-        ><router-link to="/brand1">{{
-          $t("brand2")
-        }}</router-link></el-menu-item
-      >
     </el-sub-menu>
     <el-sub-menu index="5" class="menu-item">
       <template #title>{{ $t("joinus") }}</template>

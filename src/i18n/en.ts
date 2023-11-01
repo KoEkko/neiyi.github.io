@@ -5,7 +5,7 @@ const enLanguage = {
   history: "History",
   honor: "Honor",
   brands: "Brands",
-  brand1: "Meisi brand",
+  brand1: "JCzzny brand",
   brand2: "Shiting brand",
   dynamic: "Enterprise Dynamic",
   joinus: "Contact Us",
@@ -95,14 +95,14 @@ const enLanguage = {
     "True, the disdain and self that have been hidden deep in my heart for a long time are revealed...",
   "brand1-8":
     "Shiting, a fresh beauty with personality, self-esteem and beauty, is like the bright flowers dancing in the sun, and the colorful dragonflies flying by the lotus pond, more like the smooth notes singing. .....Collecting international popular fashion elements will take you into a colorful and beautiful new world...",
-  "brand2-1": "Meisi Brand Story",
+  "brand2-1": "JCzzny Brand Story",
   "brand2-2": "Brand Story",
   "brand2-3":
-    "Meisi: seeing the words and smelling the fragrance comes from the charm and artistic conception of women's 'natural love of beauty, wisdom and thoughtfulness'. The syllables are beautiful and moving, the rhythm of the words is gentle and crisp, and the beauty, elegance and intelligence of women are contained. in.",
+    "JCzzny: seeing the words and smelling the fragrance comes from the charm and artistic conception of women's 'natural love of beauty, wisdom and thoughtfulness'. The syllables are beautiful and moving, the rhythm of the words is gentle and crisp, and the beauty, elegance and intelligence of women are contained. in.",
   "brand2-4":
-    "The 'M' shape of the Merc logo is like a woman's delicate and plump breast shape, and also like a dancing butterfly flying in the sun. The smooth and flexible lines hide the 'heart' shape, symbolizing love. , cleverly embodying brand culture and core values. Passionately running",
+    "The 'J' shape of the Merc logo is like a woman's delicate and plump breast shape, and also like a dancing butterfly flying in the sun. The smooth and flexible lines hide the 'heart' shape, symbolizing love. , cleverly embodying brand culture and core values. Passionately running",
   "brand2-5":
-    "The red color of Meisi fully demonstrates mature women's pursuit of fashionable life and the elegance and charm that comes from within",
+    "The red color of JCzzny fully demonstrates mature women's pursuit of fashionable life and the elegance and charm that comes from within",
   "advan-1":
     "1. The Shiting brand has: China's well-known trademarks, CQC China Environmental Protection Products and National CNMAS Laboratory dual certification, China's top ten underwear brands, Guangdong Province famous brand products, Guangdong Province Famous Trademarks, Guangdong Province Advanced Manufacturing Standardization Demonstration Unit, etc. brand history.",
   "advan-2":

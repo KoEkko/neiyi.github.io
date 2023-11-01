@@ -15,13 +15,13 @@ const modules = [Navigation, Scrollbar, A11y, Autoplay];
   <div class="block text-center">
     <el-carousel height="900px" class="fa">
       <el-carousel-item class="img-box">
-        <img src="../assets/1.jpg" alt="" />
+        <img src="../assets/brand2-2.jpg" alt="" />
       </el-carousel-item>
       <el-carousel-item class="img-box">
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/brand1-9.jpg" alt="" />
       </el-carousel-item>
       <el-carousel-item class="img-box">
-        <img src="../assets/3.jpg" alt="" />
+        <img src="../assets/brand1-2.jpg" alt="" />
       </el-carousel-item>
       <el-carousel-item class="img-box">
         <img src="../assets/4.jpg" alt="" />
