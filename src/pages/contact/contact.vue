@@ -12,7 +12,7 @@
               {{$t("con-3")}}
             </div>
             <div class="p_down">
-              <p>{{$t("con-4")}}</p>
+              <p>{{$t("con-4")}} &nbsp;&nbsp;&nbsp;&nbsp; {{ $t("con-6")}}</p>
               <br />
               <p>
                 {{$t("con-5")}}
@@ -82,7 +82,7 @@ import MapContainer from "./MapContainer.vue";
 }
 
 .tit {
-  font-size: 18px;
+  font-size: 26px;
   color: rgb(51, 51, 51);
   padding-top: 80px;
 }
@@ -92,8 +92,7 @@ import MapContainer from "./MapContainer.vue";
 .p,
 .p_down p {
   color: rgb(128, 128, 128);
-  font-size: 12px;
-  line-height: 34px;
+  font-size: 16px;
 }
 .p_down p {
   display: block;

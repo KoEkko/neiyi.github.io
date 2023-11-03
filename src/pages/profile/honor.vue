@@ -116,8 +116,6 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Scrollbar, A11y, Autoplay } from "swiper/modules";
-// import Swiper core and required modules
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

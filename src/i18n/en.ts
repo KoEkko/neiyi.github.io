@@ -65,8 +65,8 @@ const enLanguage = {
   "profile1-17": "Address:",
   "profile1-18":
     "A202, Building 31, Minle Garden, Minzhi Street, Longhua District, Shenzhen",
-  "profile1-19": "Phone:",
-  "profile1-20": "Email:",
+  "profile1-19": "Phone: James +86 18823927828 &nbsp;Zibber +86 13413422177",
+  "profile1-20": "Email",
   "profile1-21":
     " Whether you are a new customer or an old friend, we look forward to establishing a long-term partnership with you and creating a successful future in the underwear market together.",
   "profile1-22": "Export trade experience",
@@ -154,8 +154,9 @@ const enLanguage = {
   "con-1":"CONTACT",
    "con-2":"Shenzhen Yihan International Trading Co., Ltd.",
    "con-3":"Welcome to a win-win future and create a successful road together! If you are interested, please fill in your valuable comments and our customer service will reply to you as soon as possible!",
-   "con-4":"Franchise consultation hotline: 18823927828",
+   "con-4":"Franchise consultation hotline: James +86 18823927828 ",
    "con-5":"Headquarters address: A202, Building 31, Minle Garden, Minzhi Street, Longhua District, Shenzhen",
+   "con-6":"Zibber +86 13413422177",
    "add-1":"Address: A202, Building 31, Minle Garden, Minzhi Street, Longhua District, Shenzhen City",
    "hi_1":"CNAS--China National Certification Laboratory for Conformity Assessment",
    "hi_2":"CQC--China Environmental Product Certification",
@@ -175,6 +176,6 @@ const enLanguage = {
    "h_7": "In 2019, the 'brand of Shiting' was established",
    "h_9": "Yihan 3. Era",
    "h_10": "2020 Intelligent Innovation and Development",
-   "title":"ShenZhen Yihan International Trading Co., Ltd"
+   "title":"ShenZhen Yihan International Trading Co., Ltd",
 };
 export default enLanguage;

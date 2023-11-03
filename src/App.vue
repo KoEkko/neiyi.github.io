@@ -122,14 +122,14 @@ const changeLang = (loc: string): void => {
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
 .el-menu-demo {
   display: flex;
   justify-content: center;
   height: 100px;
 }
 .el_menu_item1 {
-  font-family: 'Playfair Display', serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
 }
 .img_box {

@@ -127,6 +127,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.profile p {
+  word-wrap: break-word;
+}
 .big {
   color: rgb(73, 110, 232);
   font-size: 28px;
@@ -160,8 +164,10 @@
   flex-direction: column;
   line-height: 30px;
   padding: 20px 30px;
+  margin-right: 180px;
   background-image: url(../../assets/history3.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .left_img img {
   margin-left: 80px;
@@ -249,7 +255,4 @@
   height: 100%;
 }
 
-.box_tit {
-
-}
 </style>

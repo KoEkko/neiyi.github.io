@@ -5,12 +5,12 @@ const router = createRouter({
   routes: [
     { path: "", component: () => import("../pages/home.vue") },
     {
-      path: "/profile",
-      component: () => import("../pages/profile/profile.vue"),
-    },
-    {
       path: "/history",
       component: () => import("../pages/profile/history.vue"),
+    },
+    {
+      path: "/profile",
+      component: () => import("../pages/profile/profile.vue"),
     },
     { path: "/honor", component: () => import("../pages/profile/honor.vue") },
     {

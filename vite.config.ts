@@ -8,7 +8,7 @@ import path from "path";
 export default defineConfig(({ command, mode, ssrBuild }) => {
   return {
     build: {
-      outDir: path.resolve(__dirname, "docs"), // Equivalent to assetsRoot in webpack
+      outDir: path.resolve(__dirname, "dist"), // Equivalent to assetsRoot in webpack
       assetsDir: "static", // Equivalent to assetsSubDirectory in webpack
       // ...
     },

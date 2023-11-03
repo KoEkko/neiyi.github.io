@@ -86,7 +86,7 @@
               >{{ $t("profile1-23") }}
             </li>
             <li>
-              <strong>{{ $t("profile1-20") }}</strong>
+              <strong>{{ $t("profile1-20") }}：info@yihan-bras.com</strong>
             </li>
             <br />
             {{ $t("profile1-21") }}
